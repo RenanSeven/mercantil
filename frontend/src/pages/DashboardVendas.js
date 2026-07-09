@@ -8,7 +8,7 @@ import ChatRelatorio from '../components/ChatRelatorio';
 import ModalStorytelling from '../components/ModalStorytelling';
 import './DashboardVendas.css';
 
-const API_URL = process.env.REACT_APP_AUTH_API_URL || 'http://localhost:3333';
+const API_URL = process.env.REACT_APP_AUTH_API_URL || (process.env.NODE_ENV === 'production' ? '' : 'http://localhost:3333');
 
 const MESES = [
   { valor: 0, nome: 'Todos' },

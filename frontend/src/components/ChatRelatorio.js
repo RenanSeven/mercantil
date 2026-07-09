@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './ChatRelatorio.css';
 
-const API_URL = process.env.REACT_APP_AUTH_API_URL || 'http://localhost:3333';
+const API_URL = process.env.REACT_APP_AUTH_API_URL || (process.env.NODE_ENV === 'production' ? '' : 'http://localhost:3333');
 
 export default function ChatRelatorio({ resumo }) {
   const [aberto, setAberto] = useState(false);

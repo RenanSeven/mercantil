@@ -190,7 +190,7 @@ Regras:
   }
 });
 
-const PORT = process.env.AUTH_PORT || 3333;
+const PORT = process.env.PORT || process.env.AUTH_PORT || 3333;
 garantirTabela()
   .then(() => {
     app.listen(PORT, () => console.log(`Servidor de autenticação rodando em http://localhost:${PORT}`));

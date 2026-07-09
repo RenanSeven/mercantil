@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Auth.css';
 
-const API_URL = process.env.REACT_APP_AUTH_API_URL || 'http://localhost:3333';
+const API_URL = process.env.REACT_APP_AUTH_API_URL || (process.env.NODE_ENV === 'production' ? '' : 'http://localhost:3333');
 
 export default function Login({ onLogin }) {
   const [email, setEmail] = useState('');
