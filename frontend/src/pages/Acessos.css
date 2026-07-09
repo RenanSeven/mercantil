@@ -1,0 +1,43 @@
+.acessos-pagina {
+  padding: 28px 32px;
+}
+
+.acessos-pagina h1 {
+  font-size: 20px;
+  margin: 0 0 16px;
+}
+
+.acessos-erro {
+  color: #dc2626;
+  font-size: 13px;
+  margin: 0 0 12px;
+}
+
+.acessos-card {
+  padding: 20px;
+}
+
+.acessos-vazio {
+  color: var(--texto-secundario);
+  font-size: 13px;
+  text-align: center;
+  margin: 0;
+}
+
+.acessos-tabela {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.acessos-tabela th,
+.acessos-tabela td {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--cinza-borda);
+}
+
+.acessos-tabela th {
+  color: var(--texto-secundario);
+  font-weight: 600;
+}

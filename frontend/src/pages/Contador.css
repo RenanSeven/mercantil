@@ -1,0 +1,118 @@
+.contador-pagina {
+  padding: 28px 32px;
+}
+
+.contador-pagina h1 {
+  font-size: 20px;
+  margin: 0 0 16px;
+}
+
+.contador-dropzone {
+  height: 60vh;
+  min-height: 380px;
+  border: 3px dashed var(--cinza-borda);
+  border-radius: 14px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.contador-dropzone.arrastando {
+  border-color: var(--azul);
+  background: #eff6ff;
+}
+
+.contador-dropzone-icone {
+  font-size: 48px;
+}
+
+.contador-dropzone-texto {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.contador-dropzone-subtexto {
+  font-size: 13px;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.contador-botao {
+  background: var(--azul);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 22px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+.contador-botao:hover {
+  background: var(--azul-escuro);
+}
+
+.contador-erro {
+  color: #dc2626;
+  font-size: 13px;
+  margin-top: 12px;
+}
+
+.contador-modal-fundo {
+  position: fixed;
+  inset: 0;
+  background: rgba(17, 24, 39, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+  padding: 20px;
+}
+
+.contador-modal-caixa {
+  position: relative;
+  padding: 40px;
+  min-width: 320px;
+  text-align: center;
+}
+
+.contador-modal-fechar {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: var(--texto-secundario);
+}
+
+.contador-modal-icone {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.contador-modal-caixa h2 {
+  font-size: 14px;
+  color: var(--texto-secundario);
+  font-weight: 500;
+  margin: 0 0 16px;
+  word-break: break-all;
+}
+
+.contador-modal-qtde {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--azul);
+  margin: 0;
+}
+
+.contador-modal-label {
+  font-size: 14px;
+  color: var(--texto-secundario);
+  margin: 4px 0 0;
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "id": 2,
+    "tipo": "Agua",
+    "mes": "Ago",
+    "ano": 2024,
+    "valor": 18
+  },
+  {
+    "id": 8,
+    "tipo": "Luz",
+    "mes": "Ago",
+    "ano": 2024,
+    "valor": 25
+  },
+  {
+    "id": 14,
+    "tipo": "Telefone",
+    "mes": "Ago",
+    "ano": 2024,
+    "valor": 48
+  },
+  {
+    "id": 6,
+    "tipo": "Agua",
+    "mes": "Dez",
+    "ano": 2024,
+    "valor": 27
+  },
+  {
+    "id": 12,
+    "tipo": "Luz",
+    "mes": "Dez",
+    "ano": 2024,
+    "valor": 22
+  },
+  {
+    "id": 18,
+    "tipo": "Telefone",
+    "mes": "Dez",
+    "ano": 2024,
+    "valor": 30
+  },
+  {
+    "id": 1,
+    "tipo": "Agua",
+    "mes": "Jul",
+    "ano": 2024,
+    "valor": 15
+  },
+  {
+    "id": 7,
+    "tipo": "Luz",
+    "mes": "Jul",
+    "ano": 2024,
+    "valor": 30
+  },
+  {
+    "id": 13,
+    "tipo": "Telefone",
+    "mes": "Jul",
+    "ano": 2024,
+    "valor": 70
+  },
+  {
+    "id": 5,
+    "tipo": "Agua",
+    "mes": "Nov",
+    "ano": 2024,
+    "valor": 18
+  },
+  {
+    "id": 11,
+    "tipo": "Luz",
+    "mes": "Nov",
+    "ano": 2024,
+    "valor": 30
+  },
+  {
+    "id": 17,
+    "tipo": "Telefone",
+    "mes": "Nov",
+    "ano": 2024,
+    "valor": 50
+  },
+  {
+    "id": 4,
+    "tipo": "Agua",
+    "mes": "Out",
+    "ano": 2024,
+    "valor": 30
+  },
+  {
+    "id": 10,
+    "tipo": "Luz",
+    "mes": "Out",
+    "ano": 2024,
+    "valor": 32
+  },
+  {
+    "id": 16,
+    "tipo": "Telefone",
+    "mes": "Out",
+    "ano": 2024,
+    "valor": 65
+  },
+  {
+    "id": 3,
+    "tipo": "Agua",
+    "mes": "Set",
+    "ano": 2024,
+    "valor": 20
+  },
+  {
+    "id": 9,
+    "tipo": "Luz",
+    "mes": "Set",
+    "ano": 2024,
+    "valor": 20
+  },
+  {
+    "id": 15,
+    "tipo": "Telefone",
+    "mes": "Set",
+    "ano": 2024,
+    "valor": 60
+  }
+]

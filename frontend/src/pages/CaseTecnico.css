@@ -1,0 +1,57 @@
+.case-pagina {
+  padding: 28px 32px;
+}
+
+.case-pagina h1 {
+  font-size: 20px;
+  margin: 0 0 20px;
+}
+
+.case-secao {
+  padding: 24px 28px;
+  margin-bottom: 18px;
+}
+
+.case-secao h2 {
+  font-size: 16px;
+  margin: 0 0 16px;
+  color: var(--azul);
+  border-bottom: 1px solid var(--cinza-borda);
+  padding-bottom: 10px;
+}
+
+.case-secao h3 {
+  font-size: 14px;
+  margin: 20px 0 8px;
+}
+
+.case-secao h3:first-of-type {
+  margin-top: 0;
+}
+
+.case-secao p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0 0 8px;
+}
+
+.case-imagem {
+  display: block;
+  max-width: 100%;
+  border: 1px solid var(--cinza-borda);
+  border-radius: 8px;
+  margin: 0 auto 14px;
+}
+
+.case-codigo {
+  background: #111827;
+  color: #e5e7eb;
+  padding: 14px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  line-height: 1.6;
+  overflow-x: auto;
+  margin: 0 0 12px;
+  white-space: pre;
+  font-family: 'Consolas', 'Courier New', monospace;
+}

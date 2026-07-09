@@ -1,0 +1,57 @@
+.powerbi-pagina {
+  padding: 28px 32px;
+}
+
+.powerbi-pagina h1 {
+  font-size: 20px;
+  margin: 0 0 16px;
+}
+
+.powerbi-card {
+  padding: 28px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 480px;
+}
+
+.powerbi-card-icone {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  background: var(--cinza-fundo);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.powerbi-card-texto {
+  flex: 1;
+}
+
+.powerbi-card-texto h2 {
+  font-size: 15px;
+  margin: 0 0 4px;
+}
+
+.powerbi-card-texto p {
+  font-size: 13px;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.powerbi-card-botao {
+  background: var(--azul);
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 7px;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.powerbi-card-botao:hover {
+  background: var(--azul-escuro);
+}

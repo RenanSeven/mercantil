@@ -1,0 +1,41 @@
+.dd-kpis-quatro .dv-kpi {
+  align-items: center;
+  text-align: center;
+}
+
+.dd-kpis-quatro .dv-kpi-valor {
+  font-size: 26px;
+}
+
+.dd-linha-inferior {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(280px, 1fr);
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.dd-tabela-dinamica th,
+.dd-tabela-dinamica td {
+  text-align: right;
+}
+
+.dd-tabela-dinamica th:first-child,
+.dd-tabela-dinamica td:first-child {
+  text-align: left;
+}
+
+.dd-tabela-dinamica tfoot td {
+  border-top: 2px solid var(--cinza-borda);
+  border-bottom: none;
+  background: var(--cinza-fundo);
+}
+
+.dd-linha-clicavel {
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .dd-linha-inferior {
+    grid-template-columns: 1fr;
+  }
+}

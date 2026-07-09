@@ -1,0 +1,95 @@
+.lista-nomes-pagina {
+  padding: 28px 32px;
+}
+
+.lista-nomes-pagina h1 {
+  font-size: 20px;
+  margin: 0 0 16px;
+}
+
+.lista-nomes-form {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  padding: 18px;
+  margin-bottom: 18px;
+}
+
+.lista-nomes-campo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+}
+
+.lista-nomes-campo label {
+  font-size: 12px;
+  color: var(--texto-secundario);
+}
+
+.lista-nomes-campo input {
+  width: 100%;
+  border: 1px solid var(--cinza-borda);
+  border-radius: 7px;
+  padding: 14px 16px;
+  font-size: 16px;
+}
+
+.lista-nomes-form button {
+  background: var(--azul);
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 9px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.lista-nomes-form button:disabled {
+  background: var(--cinza-borda);
+  color: var(--texto-secundario);
+  cursor: not-allowed;
+}
+
+.lista-nomes-erro {
+  color: #dc2626;
+  font-size: 13px;
+  margin: 0 0 12px;
+}
+
+.lista-nomes-card {
+  padding: 20px;
+}
+
+.lista-nomes-vazio {
+  color: var(--texto-secundario);
+  font-size: 13px;
+  text-align: center;
+  margin: 0;
+}
+
+.lista-nomes-tabela {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.lista-nomes-tabela th,
+.lista-nomes-tabela td {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--cinza-borda);
+}
+
+.lista-nomes-tabela th {
+  color: var(--texto-secundario);
+  font-weight: 600;
+}
+
+.lista-nomes-remover {
+  background: none;
+  border: none;
+  color: #dc2626;
+  font-size: 13px;
+}

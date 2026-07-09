@@ -1,0 +1,33 @@
+:root {
+  --azul: #2563eb;
+  --azul-escuro: #1d4ed8;
+  --cinza-fundo: #f3f4f6;
+  --cinza-borda: #e5e7eb;
+  --texto: #111827;
+  --texto-secundario: #6b7280;
+  --branco: #ffffff;
+  --sombra: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+  background: var(--cinza-fundo);
+  color: var(--texto);
+}
+
+.card {
+  background: var(--branco);
+  border-radius: 10px;
+  box-shadow: var(--sombra);
+  border: 1px solid var(--cinza-borda);
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}

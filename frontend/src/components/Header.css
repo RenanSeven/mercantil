@@ -1,0 +1,84 @@
+.app-header {
+  height: 60px;
+  background: #fff;
+  border-bottom: 1px solid var(--cinza-borda);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 0;
+  z-index: 30;
+}
+
+.app-header-titulo {
+  font-size: 14px;
+  color: var(--texto-secundario);
+}
+
+.app-header-usuario {
+  position: relative;
+}
+
+.app-header-usuario-botao {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 20px;
+}
+
+.app-header-usuario-botao:hover {
+  background: var(--cinza-fundo);
+}
+
+.app-header-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #2563eb;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.app-header-nome {
+  font-size: 14px;
+  color: var(--texto);
+}
+
+.app-header-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  background: #fff;
+  border: 1px solid var(--cinza-borda);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  min-width: 120px;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.app-header-sair {
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 10px 14px;
+  font-size: 13px;
+  color: var(--texto);
+  text-align: left;
+  cursor: pointer;
+}
+
+.app-header-sair:hover {
+  background: var(--cinza-fundo);
+}

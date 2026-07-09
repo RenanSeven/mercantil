@@ -1,0 +1,14 @@
+.pagina-vazia {
+  padding: 28px 32px;
+}
+
+.pagina-vazia h1 {
+  font-size: 20px;
+  margin: 0 0 16px;
+}
+
+.pagina-vazia-card {
+  padding: 40px;
+  text-align: center;
+  color: var(--texto-secundario);
+}

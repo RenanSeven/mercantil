@@ -1,0 +1,76 @@
+.modal-story-fundo {
+  position: fixed;
+  inset: 0;
+  background: rgba(17, 24, 39, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+  padding: 20px;
+}
+
+.modal-story-caixa {
+  width: 100%;
+  max-width: 920px;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.modal-story-cabecalho {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 22px 28px;
+  border-bottom: 1px solid var(--cinza-borda);
+  flex-shrink: 0;
+}
+
+.modal-story-cabecalho h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.modal-story-subtitulo {
+  font-size: 14px;
+  color: var(--texto-secundario);
+}
+
+.modal-story-fechar {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: var(--texto-secundario);
+}
+
+.modal-story-corpo {
+  padding: 28px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.modal-story-texto {
+  font-size: 18px;
+  line-height: 1.8;
+  white-space: pre-wrap;
+  margin: 0;
+}
+
+.modal-story-positivo {
+  color: #16a34a;
+}
+
+.modal-story-negativo {
+  color: #dc2626;
+}
+
+.modal-story-carregando {
+  color: var(--texto-secundario);
+  font-size: 18px;
+}
+
+.modal-story-erro {
+  color: #dc2626;
+  font-size: 18px;
+}
